@@ -1,0 +1,19 @@
+/* Product.css */
+
+.product-image-container {
+    border-radius: 100px;
+    background: rgba(0, 38, 255, 0.1);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    border-color: black;
+    
+  }
+  
+  .product-details-container {
+    border-radius: 10px;
+    background: rgba(2, 73, 252, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
