@@ -5,7 +5,7 @@ import Skeleton from 'react-loading-skeleton';
 import { useDispatch } from 'react-redux';
 import { addCart } from '../redux/action';
 import productsData from '../productsData.json';
-import './Product.css'; 
+import './Product.css';
 
 export default function Product() {
     const { id } = useParams();
@@ -57,9 +57,11 @@ export default function Product() {
 
         return (
             <>
+
                 <div className="col-md-6 product-image-container">
                     <img src={product.image} alt={product.name} />
                 </div>
+
                 <div className="col-md-6 product-details-container">
                     <h4 className="text-uppercase text-black-50">{product.category}</h4>
                     <h1 className="display-5">{product.name}</h1>

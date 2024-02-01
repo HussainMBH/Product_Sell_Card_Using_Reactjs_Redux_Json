@@ -76,7 +76,7 @@ export default function Product() {
             return item;
         });
 
-       
+
 
         // Update state and show notification
         setProduct({
@@ -96,7 +96,7 @@ export default function Product() {
                     <Skeleton height={400} />
                 </div>
                 <div className="col-md-6" style={{ lineHeight: 2 }}>
-                   
+
                 </div>
             </>
         )

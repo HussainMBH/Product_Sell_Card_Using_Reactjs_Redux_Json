@@ -1,19 +1,55 @@
 /* Product.css */
-
-.product-image-container {
-    border-radius: 100px;
-    background: rgba(0, 38, 255, 0.1);
-    backdrop-filter: blur(10px);
-    overflow: hidden;
-    border-color: black;
-    
-  }
-  
-  .product-details-container {
-    border-radius: 10px;
-    background: rgba(2, 73, 252, 0.1);
-    backdrop-filter: blur(10px);
+ 
+.product-container {
+    width: 300px; /* Set the width of the card */
+    height: 400px; /* Set the height of the card */
+    /* Add any other styles you need */
+    background-color: rgb(239, 44, 0);
+    border-radius: 15px;
     padding: 20px;
-    margin-top: 20px;
-  }
-  
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(244, 1, 1, 0.1);
+}
+.product-image-container img {
+    padding: 1%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 81, 255, 0.964);
+}
+ 
+.glassmorphism-container {
+    background: rgba(8, 77, 237, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+.glassmorphism {
+    background: rgba(62, 65, 71, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+
+.product-details-container {
+    padding: 100px;
+}
+
+.btn-outline-dark {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #343a40;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.btn-dark:hover {
+    background-color: #020101;
+}

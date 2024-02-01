@@ -1,7 +1,7 @@
 /* Products.css */
 
 .glassmorphism-container {
-    background: rgba(8, 77, 237, 0.1);
+    background: rgba(4, 79, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 20px;
@@ -20,6 +20,5 @@
 }
 
 .loading-card {
-    /* Add any additional loading card styling here */
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
