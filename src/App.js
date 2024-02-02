@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 import Cart from './component/Cart';
 
 
+
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="products/:id" element={<Product />} />
-        <Route path="/products/:id/edit" element={<ProductEdit />} /> {/* Add route for editing */}
+        <Route path="/products/:id/edit" element={<ProductEdit />} />  
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </>

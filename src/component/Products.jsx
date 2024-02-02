@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
-import { useSelector } from 'react-redux'; // Assuming you are using Redux
+import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import productsData from '../productsData.json';
 import './Products.css';
 
-// Import the JSON data
+
 
 export default function Products() {
     const [data, setData] = useState([]);
@@ -19,13 +19,13 @@ export default function Products() {
         const getProducts = async () => {
             setLoading(true);
             try {
-                // Simulating an API call delay
+
                 await new Promise(resolve => setTimeout(resolve, 1000));
                 setData(productsData);
                 setFilter(productsData);
             } catch (error) {
                 console.error("Error fetching products:", error);
-                // Handle the error (e.g., show an error message to the user)
+
             } finally {
                 setLoading(false);
             }
@@ -33,7 +33,7 @@ export default function Products() {
 
         getProducts();
 
-    }, []); // The empty dependency array ensures that the effect runs only once when the component mounts
+    }, []);
 
     const Loading = () => {
         return (
@@ -96,7 +96,7 @@ export default function Products() {
 
     return (
         <div>
-            {/* Updated styling for the container */}
+
             <div className="glassmorphism-container container my-5 py-5">
                 <div className="row">
                     <div className="col-12 mb-5">

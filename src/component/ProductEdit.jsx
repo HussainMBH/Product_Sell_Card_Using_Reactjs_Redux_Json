@@ -62,7 +62,7 @@ export default function Product() {
     }
 
     const saveChanges = () => {
-        // Save changes to the JSON data
+         
         const updatedProducts = productsData.map((item) => {
             if (String(item.id) === id) {
                 return {
@@ -78,7 +78,7 @@ export default function Product() {
 
 
 
-        // Update state and show notification
+        
         setProduct({
             ...product,
             name: editedName,
