@@ -21,7 +21,7 @@ const handleCart = (state = cart, action) => {
                 ];
             }
 
-         
+
 
         case 'UPDATE_PRODUCT':
             const updatedProduct = action.payload;

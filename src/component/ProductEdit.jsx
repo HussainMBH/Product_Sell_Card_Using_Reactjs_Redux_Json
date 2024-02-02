@@ -109,10 +109,11 @@ export default function Product() {
 
         return (
             <>
-                <div className="col-md-6">
-                    <img src={product.image} alt={product.name} height="400px" width="400px" />
+                
+                <div className="col-md-6 product-image-container">
+                    <img src={product.image} alt={product.name} />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 product-details-container">
                     <h4 className="text-uppercase text-black-50">Product Details</h4>
                     <h1 className="display-20">
                         Name: <input type="text" value={editedName} onChange={handleNameChange} />
