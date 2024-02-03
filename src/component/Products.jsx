@@ -13,7 +13,7 @@ export default function Products() {
     const [loading, setLoading] = useState(false);
     const componentMounted = useRef(true);
 
-    const products = useSelector((state) => state.products); // Assuming products are in the Redux store
+    const products = useSelector((state) => state.products);
 
     useEffect(() => {
         const getProducts = async () => {
@@ -62,7 +62,7 @@ export default function Products() {
     const ShowProducts = () => {
         return (
             <>
-                <div className="buttons d-flex justify-content-center mb-5 pb-5">
+                <div className="buttons d-flex justify-content-center mb-15 pb-5">
                 </div>
 
                 {filter.map((product) => (
@@ -99,7 +99,7 @@ export default function Products() {
 
             <div className="glassmorphism-container container my-5 py-5">
                 <div className="row">
-                    <div className="col-12 mb-5">
+                    <div className="col-12 mb-15">
                         <h1 className="display-6 fw-bolder text-center">Latest Products</h1>
                         <hr />
                     </div>

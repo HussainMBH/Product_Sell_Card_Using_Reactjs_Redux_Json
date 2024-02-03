@@ -44,7 +44,7 @@ export default function Product() {
                     <Skeleton height={400} />
                 </div>
                 <div className="col-md-6" style={{ lineHeight: 2 }}>
-                    {/* Add skeleton loading for other details */}
+                    
                 </div>
             </>
         )
