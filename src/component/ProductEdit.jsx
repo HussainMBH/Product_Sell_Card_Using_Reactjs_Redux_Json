@@ -62,7 +62,7 @@ export default function Product() {
     }
 
     const saveChanges = () => {
-         
+
         const updatedProducts = productsData.map((item) => {
             if (String(item.id) === id) {
                 return {
@@ -77,8 +77,6 @@ export default function Product() {
         });
 
 
-
-        
         setProduct({
             ...product,
             name: editedName,
@@ -109,7 +107,7 @@ export default function Product() {
 
         return (
             <>
-                
+
                 <div className="col-md-6 product-image-container">
                     <img src={product.image} alt={product.name} />
                 </div>
