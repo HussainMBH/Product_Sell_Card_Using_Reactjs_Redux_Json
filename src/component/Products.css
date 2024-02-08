@@ -4,6 +4,7 @@
     backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 20px;
+    border-color: brown;
 }
 
 .glassmorphism {
@@ -12,6 +13,7 @@
     border-radius: 15px;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    
 }
 
 .glassmorphism:hover {
@@ -21,3 +23,7 @@
 .loading-card {
     margin-bottom: 200px;
 }
+.card{
+    border-color: brown;
+}
+

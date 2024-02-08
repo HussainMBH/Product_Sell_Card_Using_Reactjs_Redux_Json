@@ -1,4 +1,4 @@
-This is my Repository Link: https://github.com/HussainMBH/Product_Sell_Card_Using_Reactjs_Redux_Json
+This is my Repository Link: https://github.com/HussainMBH/Product_Sell_Card_Using_Reactjs_Redux_Json/tree/master
 You can see in package.json file what are the dependencies used in this project
 
 # Getting Started with Create React App
